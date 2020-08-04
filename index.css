@@ -1,4 +1,17 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(251, 255, 255);
+}
+
+a:hover{
+    color: #2A527B;
+}
+
 .menu{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 15pt;
@@ -25,12 +38,35 @@
 #gentleDentistryLogo{
     position: absolute;
     top: 5px;
-    margin-left: 400px;
+    margin-left: 375px;
     width: 800px;
-    height: 175px;
+    height: 170px;
     
 }
 
+#team{
+    position: absolute;
+    top: 650px;
+    left: 870px
+}
+
+#phone{
+    position: absolute;
+    top: 915px;
+    left: 40px;
+}
+
+#calendar{
+    position: absolute;
+    top: 915px;
+    left: 400px;
+}
+
+#procedure{
+    position: absolute;
+    top: 1050px;
+    left: 50px;
+}
 
 ul{
     margin: 0px;
@@ -40,7 +76,7 @@ ul{
 
 }
 
-li{
+#menu li{
 display: inline-block;
 padding-right: 100px;
 }
@@ -49,4 +85,92 @@ padding-right: 100px;
 padding-left: 9%;
 }
 
+button#appointment{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-size: 18pt;
+    color: azure;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #2A527B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-width: 1px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+h1{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 25pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2A527B;
+}
+
+h4{
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    font-size: 12.5pt;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2A527B;
+
+}
+
+h5{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 30pt;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2A527B;
+}
+
+h6{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    line-height: 35px;
+    font-size: 18pt;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2A527B;
+    width: 725px;
+}
+
+#phoneNumber{
+    position: relative;
+    top: 125px;
+    left: 110px;
+}
+
+#availability{
+    position: relative;
+    top: 75px;
+    left: 475px;
+}
+
+#treatmentsAndServices{
+    position: relative;
+    top: 150px;
+    left: 930px;
+}
+
+#homeTreatments li{
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    margin: none;
+
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: 380px;
+}
 

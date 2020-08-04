@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(251, 255, 255);
+}
+
+a:hover{
+    color: #2A527B;
+}
+
+.menu{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15pt;
+    color: rgb(56, 56, 56);
+    font-weight: 300;
+    background-color: white;
+    position: sticky;
+}
+
+ul{
+    margin: 0px;
+    padding-top: 175px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+#menu li{
+display: inline-block;
+padding-right: 100px;
+}
+
+#li1{
+padding-left: 9%;
+}
+
+#gentleDentistryLogo{
+    position: absolute;
+    top: 5px;
+    margin-left: 375px;
+    width: 800px;
+    height: 170px;
+    
+}
