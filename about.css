@@ -5,43 +5,67 @@
 
 body{
     background-color: rgb(251, 255, 255);
+    ;
 }
 
-a:hover{
-    color: #2A527B;
-}
 
-.menu{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 15pt;
-    color: rgb(56, 56, 56);
-    font-weight: 300;
-    background-color: white;
-    position: sticky;
-}
 
-ul{
-    margin: 0px;
-    padding-top: 175px;
-    padding-bottom: 10px;
-    text-align: center;
-
-}
-
-#menu li{
-display: inline-block;
-padding-right: 100px;
-}
-
-#li1{
-padding-left: 9%;
-}
-
-#gentleDentistryLogo{
+h1{
     position: absolute;
-    top: 5px;
-    margin-left: 375px;
-    width: 800px;
-    height: 170px;
-    
+    top: 230px;
+    left: 410px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 410;
+    color:white;
+    font-size: 28pt;
 }
+
+h2{
+    position: absolute;
+    top: 300px;
+    left: 410px;
+
+    padding-top: 0px;
+    margin-right: 50px;
+
+    font-size: 17pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 35px;
+    color: white;
+
+}
+
+#officeInfo2 h2{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    color: #2A527B;
+    padding-right: 600px;
+    padding
+}
+
+#portrait{
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.block{
+    background-color: #2A527B;
+    padding-bottom: 20px;
+}
+
+#team{
+    position: absolute;
+    top:520px;
+    left: 950px;
+
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+
